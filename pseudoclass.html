@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*input{
+            padding: 15px;
+
+        }
+        input:focus{
+            background-color: chartreuse;
+        }*/
+        table,td,th{
+            border: 1px solid red;
+            border-collapse: collapse;
+        }
+        tr:nth-child(even){
+            background-color:green;
+        }
+       /* p:hover{
+            color: blueviolet;
+        }*/
+        /*p::first-letter{
+            color: brown;
+            font-size: 3rem;
+        }*/
+       /* P::first-line{
+            color: chocolate;
+        }*/
+        /*p::after{
+            content: ">";
+            color: darkcyan;
+            font-size: 3rem;
+        }*/
+        .demo::before{
+            content: '';
+            width:50%;
+            height: 25px;
+            background-color: chartreuse;
+            display: inline-block;
+        }
+        p:nth-child(5)::first-letter{
+            color:blueviolet;
+            font-size: 3rem;
+        }
+        ::selection{
+            color: burlywood;
+            background: chartreuse;
+            font-size: 2rem;
+        }
+      
+    </style>
+</head>
+<body>
+    <!--<input type="text" placeholder="Enter your name">-->
+
+    <div class="demo">
+    <p>I love my country very much.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quo minima illum consequuntur velit necessitatibus labore voluptate debitis ratione facilis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, nulla!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, numquam?</p>
+    </div>
+</body>
+</html>

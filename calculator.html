@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            box-sizing: border-box;
+            font-size: 0;
+            background-color: aqua;
+            width: 500px;
+            text-align: center;
+        
+        }
+        .result{
+            padding:25px;
+            width:294px;
+            border:2px solid rebeccapurple;
+            font-size: 2.5rem;
+            text-align: right;
+            color: blueviolet;
+            box-shadow: 2px 3px 3px black;
+
+        }
+        .btn{
+            width:87px;
+            height:70px;
+            font-size:1.2rem;
+            background-color: wheat;
+            box-shadow: 2px 3px 3px black;
+        }
+        .btn:hover{
+            box-shadow: 2px 3px 3px rgb(151, 223, 18);
+            background-color: brown;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="calc-head">
+            <input class="result" type="text">
+        </div>
+        <div class="calc-body">
+           <div>
+               <input type="button" class="btn" value="C">
+               <input type="button" class="btn" value="+/-">
+               <input type="button" class="btn" value="%">
+               <input type="button" class="btn" value="/">
+           </div>
+           <div>
+            <input type="button" class="btn" value="7">
+            <input type="button" class="btn" value="8">
+            <input type="button" class="btn" value="9">
+            <input type="button" class="btn" value="X">
+        </div>
+        <div>
+            <input type="button" class="btn" value="4">
+            <input type="button" class="btn" value="5">
+            <input type="button" class="btn" value="6">
+            <input type="button" class="btn" value="-">
+        </div>
+        <div>
+            <input type="button" class="btn" value="1">
+            <input type="button" class="btn" value="2">
+            <input type="button" class="btn" value="3">
+            <input type="button" class="btn" value="+">
+        </div>
+        <div>
+            <input type="button" class="btn" value="0">
+            <input type="button" class="btn" value=".">
+            <input type="button" class="btn" value="DEL">
+            <input type="button" class="btn" value="=">
+        </div>
+        </div>
+    </div>
+</body>
+</html>
